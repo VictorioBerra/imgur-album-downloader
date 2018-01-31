@@ -5,6 +5,7 @@ Driven by Imgur API.
 ## Installation
 
 `npm i iad -g`
+or run right away without installing `npx imgur-album-downloader -- --help`
 
 ## Usage
 
@@ -20,7 +21,7 @@ Positionals:
             more information                                            [string]
   id        id of Imgur album                                           [string]
   dest      destination directory to save files to
-                        [string] [default: "C:\Users\vicber\Desktop\temp\imgur"]
+                        [string] [default: "your pwd"]
 
 Options:
   --help          Show help                                            [boolean]

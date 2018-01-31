@@ -24,7 +24,6 @@ require('yargs') // eslint-disable-line
     }, (argv) => {
         download(argv.clientid, argv.id, argv.dest, argv.loglevel, argv.report);
     })
-    .example('$0 000aaa000bbb000ccc BsvH4 -r')
     .option('loglevel', {
         alias: 'l',
         describe: 'Level of logging 0 to 2',
