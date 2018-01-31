@@ -7,7 +7,8 @@
     "iad": "./index.js"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "postversion": "git push && git push --tags && npm publish"
   },
   "dependencies": {
     "request": "^2.83.0",

@@ -11,7 +11,7 @@ Driven by Imgur API.
 You need a ClientID. Login to Imgur, go [here][register-client] and select "Anonymous usage" and complete the registration to obtain a key.
 
 ```text
-index.js <clientid> <id> [dest]
+iad <clientid> <id> [dest]
 
 download an album
 
