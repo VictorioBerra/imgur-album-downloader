@@ -4,8 +4,8 @@ Driven by Imgur API.
 
 ## Installation
 
-`npm i iad -g`
-or run right away without installing `npx imgur-album-downloader -- --help`
+`npm i imgur-api-album-downloader -g`
+or run right away without installing `npx imgur-api-album-downloader -- --help`
 
 ## Usage
 

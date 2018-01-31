@@ -1,6 +1,6 @@
 {
   "name": "imgur-api-album-downloader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Download an imgur album via the imgur API.",
   "main": "index.js",
   "bin": {
