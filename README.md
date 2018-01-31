@@ -1,4 +1,4 @@
-# Imgur album downloader
+# Imgur API Album Downloader
 
 Driven by Imgur API.
 
