@@ -65,7 +65,7 @@ function download(clientId, albumId, destination, loglevel, createReport) {
             log.info(`Found ${images.length} images in album`);
             log.info(`Saving to ${destination}`);
 
-            for(let i = 0; i < 5; i++) {
+            for(let i = 0; i < images.length; i++) {
                 const image = images[i];
                 const filename = `${image.id}.${image.type.replace(/(\w+\/)/, '')}`;
                 const savePath = path.join(destination, '/', filename);
